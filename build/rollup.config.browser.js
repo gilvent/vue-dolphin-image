@@ -7,7 +7,7 @@ import pkg from '../package.json'
 const config = Object.assign({}, base, {
   output: {
     exports: 'named',
-    name: 'VueCatImage',
+    name: 'VueDolphinImage',
     file: pkg.unpkg,
     format: 'iife',
   },

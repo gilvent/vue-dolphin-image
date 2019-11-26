@@ -1,14 +1,14 @@
-import CatImage from './CatImage.vue'
+import DolphinImage from './DolphinImage.vue'
 
 const plugin = {
   // eslint-disable-next-line no-undef
   version: VERSION,
   install(Vue) {
-    Vue.component(CatImage.name, CatImage)
+    Vue.component(DolphinImage.name, DolphinImage)
   },
 }
 
-export { CatImage }
+export { DolphinImage }
 export default plugin
 
 let GlobalVue = null

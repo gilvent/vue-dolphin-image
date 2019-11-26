@@ -3,7 +3,7 @@ import pkg from '../package.json'
 
 const config = Object.assign({}, base, {
   output: {
-    name: 'vue-cat-image',
+    name: 'vue-dolphin-image',
     file: pkg.module,
     format: 'es',
   },

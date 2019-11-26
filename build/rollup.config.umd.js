@@ -4,7 +4,7 @@ import pkg from '../package.json'
 const config = Object.assign({}, base, {
   output: {
     exports: 'named',
-    name: 'vue-cat-image',
+    name: 'vue-dolphin-image',
     file: pkg.main,
     format: 'umd',
   },
